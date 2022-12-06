@@ -39,7 +39,7 @@ def log_Data():
     global time
 
     if request.method == 'POST':
-        #app.logger.info(request.form)
+        app.logger.info(request.form)
         temperature = request.form.get('temp')
         print(temperature)
         humidity = request.form.get('hum')
