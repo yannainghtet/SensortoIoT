@@ -6,8 +6,6 @@ from flask_sqlalchemy import SQLAlchemy
 from time import sleep
 import os
 import logging
-
-from numpy._distributor_init import basedir
 from turbo_flask import Turbo
 import threading
 from datetime import datetime
